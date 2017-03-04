@@ -16,7 +16,6 @@ export class SigninComponent implements OnInit{
     }
 
     onSubmit(){
-        console.log(this.myForm);
         this.myForm.reset();
     }
 }
